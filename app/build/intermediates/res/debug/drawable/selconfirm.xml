@@ -1,0 +1,16 @@
+    <selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_enabled="false"
+        android:drawable="@drawable/shop_btn_confirm_pressed" />
+    <item
+        android:state_pressed="true"
+        android:state_enabled="true"
+        android:drawable="@drawable/shop_btn_confirm_pressed" />
+    <item
+        android:state_focused="true"
+        android:state_enabled="true"
+        android:drawable="@drawable/shop_btn_confirm" />
+    <item
+        android:state_enabled="true"
+        android:drawable="@drawable/shop_btn_confirm" />
+    </selector><!-- From: file:/C:/Users/Giovanni/Downloads/Surfing/app/src/main/res/drawable/selconfirm.xml -->

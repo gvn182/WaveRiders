@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_selector"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <!-- ListRow Left sied Thumbnail image -->
+
+    <LinearLayout
+        android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dip"
+        android:padding="3dip" >
+
+
+        <ImageView
+            android:id="@+id/list_image"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:layout_gravity="top"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/head00" />
+
+    </LinearLayout>
+
+    <!-- Rightend Arrow -->
+    <ImageView
+        android:id="@+id/ImgBuyEquip"
+        android:contentDescription="@string/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/shop_item_buy" />
+
+    <!-- City-->
+    <Util.MyTextView
+        android:id="@+id/tvItemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/list_image"
+        android:layout_toRightOf="@+id/list_image"
+        android:layout_marginLeft="75dip"
+        android:text="@string/strCity"
+        android:textColor="#1F2440"
+        android:textSize="9dip"
+        android:textStyle="bold" />
+    
+    <!-- Weather Information-->
+
+    <Util.MyTextView
+        android:id="@+id/tvItemValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvItemName"
+        android:text="@string/strWeather"
+        android:textColor="#1F2440"
+        android:layout_below="@+id/tvItemName"
+        android:textSize="9dip" />
+
+
+
+</RelativeLayout>

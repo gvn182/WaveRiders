@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Itens>
+    <itemdata>
+	    <id>0</id>
+		<name>RED</name>
+       	<value>FREE</value>
+		<icon>board_icon0</icon>
+		<direction>0</direction>
+	</itemdata>
+	<itemdata>
+	    <id>1</id>
+		<name>RED LINE</name>
+       	<value>3000</value>
+		<icon>board_icon1</icon>
+		<direction>3000</direction>
+	</itemdata>
+	<itemdata>
+	    <id>2</id>
+		<name>FLOWERS</name>
+       	<value>3500</value>
+		<icon>board_icon2</icon>
+		<direction>3500</direction>
+	</itemdata>
+	<itemdata>
+	    <id>3</id>
+		<name>STRIPES</name>
+       	<value>4000</value>
+		<icon>board_icon3</icon>
+		<direction>4000</direction>
+	</itemdata>
+	<itemdata>
+	    <id>4</id>
+		<name>FIRE</name>
+       	<value>5000</value>
+		<icon>board_icon4</icon>
+		<direction>5000</direction>
+	</itemdata>
+</Itens>

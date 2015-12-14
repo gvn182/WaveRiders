@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Itens>
+    <itemdata>
+	    <id>0</id>
+		<name>SUNGLASS</name>
+       	<value>FREE</value>
+		<icon>head_icon0</icon>
+		<direction>0</direction>
+	</itemdata>
+	<itemdata>
+	    <id>1</id>
+		<name>RED HAT</name>
+       	<value>3000</value>
+		<icon>head_icon1</icon>
+		<direction>3000</direction>
+	</itemdata>
+		<itemdata>
+	    <id>2</id>
+		<name>SOMBRERO</name>
+       	<value>3500</value>
+		<icon>head_icon2</icon>
+		<direction>3500</direction>
+	</itemdata>
+	<itemdata>
+	    <id>3</id>
+		<name>COWBOY</name>
+       	<value>4000</value>
+		<icon>head_icon3</icon>
+		<direction>4000</direction>
+	</itemdata>
+	<itemdata>
+	    <id>4</id>
+		<name>FEZ</name>
+       	<value>4500</value>
+		<icon>head_icon4</icon>
+		<direction>4500</direction>
+	</itemdata>
+		<itemdata>
+	    <id>7</id>
+		<name>HEADSET</name>
+       	<value>5000</value>
+		<icon>head_icon7</icon>
+		<direction>0</direction>
+	</itemdata>
+	<itemdata>
+	    <id>5</id>
+		<name>HALLOWEEN</name>
+       	<value>6000</value>
+		<icon>head_icon5</icon>
+		<direction>6000</direction>
+	</itemdata>
+	<itemdata>
+	    <id>6</id>
+		<name>CHRISTMAS</name>
+       	<value>6000</value>
+		<icon>head_icon6</icon>
+		<direction>6000</direction>
+	</itemdata>
+
+	
+	
+</Itens>

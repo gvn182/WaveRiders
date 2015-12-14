@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tutoLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tutorial_bg_01"
+    tools:context=".Tutorial"
+    android:gravity="top">
+
+     <ImageButton
+        android:id="@+id/btnPrevious"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:background="@drawable/selprevious"
+         android:layout_marginRight="10dp"
+         android:layout_toLeftOf="@+id/btnNext"
+          />
+     
+          <ImageButton
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:background="@drawable/selnext"
+          android:layout_alignParentRight="true"
+          />
+    
+</RelativeLayout><!-- From: file:/C:/Users/Giovanni/Downloads/Surfing/app/src/main/res/layout/tutorial.xml -->

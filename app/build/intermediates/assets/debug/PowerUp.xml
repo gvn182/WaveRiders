@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Itens>
+    <itemdata>
+	    <id>0</id>
+		<name>NO POWER UP</name>
+       	<value>FREE</value>
+		<icon>powerup_icon0</icon>
+		<direction>0</direction>
+	</itemdata>
+		<itemdata>
+	    <id>5</id>
+		<name>BIRD REPELENT</name>
+       	<value>10000</value>
+		<icon>powerup_icon5</icon>
+		<direction>0</direction>
+	</itemdata>
+	<itemdata>
+	    <id>6</id>
+		<name>SHARK REPELENT</name>
+       	<value>10000</value>
+		<icon>powerup_icon6</icon>
+		<direction>0</direction>
+	</itemdata>
+	<itemdata>
+	    <id>7</id>
+		<name>INFINITE WAVE</name>
+       	<value>10000</value>
+		<icon>powerup_icon9</icon>
+		<direction>0</direction>
+	</itemdata>
+    <itemdata>
+	    <id>1</id>
+		<name>COIN MAGNETIC</name>
+       	<value>12000</value>
+		<icon>powerup_icon1</icon>
+		<direction>0</direction>
+	</itemdata>
+	<itemdata>
+	    <id>2</id>
+		<name>FEATHER</name>
+       	<value>13000</value>
+		<icon>powerup_icon2</icon>
+		<direction>0</direction>
+	</itemdata>
+		<itemdata>
+	    <id>3</id>
+		<name>2x COIN</name>
+       	<value>15000</value>
+		<icon>powerup_icon3</icon>
+		<direction>0</direction>
+	</itemdata>
+	<itemdata>
+	    <id>4</id>
+		<name>2x FASTER</name>
+       	<value>17000</value>
+		<icon>powerup_icon4</icon>
+		<direction>0</direction>
+	</itemdata>
+	<itemdata>
+	    <id>8</id>
+		<name>2X SPEED WAVE</name>
+       	<value>20000</value>
+		<icon>powerup_icon7</icon>
+		<direction>0</direction>
+	</itemdata>
+</Itens>

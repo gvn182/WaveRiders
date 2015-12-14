@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shop_bg" >
+
+    <ImageButton
+        android:id="@+id/btnBuyCoins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="70dp"
+        android:layout_marginLeft="58dp"
+        android:background="@drawable/selbuycoins" />
+
+    <ImageView
+        android:id="@+id/imgCoins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/shop_coincount"
+         />
+
+    <Util.MyTextView
+    android:id="@+id/txtCoins"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/imgCoins"
+    android:layout_alignTop="@+id/imgCoins"
+    android:layout_alignRight="@+id/imgCoins"
+    android:layout_alignBottom="@+id/imgCoins"
+    android:layout_margin="1dp"
+    android:textSize="8sp"
+    android:gravity="center"
+    android:textColor="#FFFFFF" />
+    
+    
+    <ImageButton
+        android:id="@+id/BtnSurfNow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/imgCoins"
+        android:background="@drawable/selsurfnowshopping" 
+
+        />
+
+    <RelativeLayout
+        android:id="@+id/relativeSquare"
+        android:layout_width="270dp"
+        android:layout_height="280dp"
+        android:layout_alignParentRight="true">
+
+        <ListView
+                android:id="@+id/list"
+                android:layout_width="240dp"
+                android:layout_marginLeft="15dp"
+                android:layout_height="195dp"
+                android:layout_below="@+id/BtnTrick"
+                android:listSelector="@drawable/list_selector" >
+            </ListView>
+            
+        
+         <ImageView
+        android:id="@+id/shop_frame"
+        android:layout_width="270dp"
+        android:layout_height="280dp"
+        android:src="@drawable/shop_frame" />
+        
+        <ImageButton
+            android:id="@+id/BtnHead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:background="@null"
+            android:src="@drawable/selhead" />
+
+        <ImageButton
+            android:id="@+id/BtnBody"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/BtnHead"
+            android:background="@null"
+            android:src="@drawable/selbody" />
+
+        <ImageButton
+            android:id="@+id/BtnBoard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/BtnBody"
+            android:background="@null"
+            android:src="@drawable/selboard" />
+
+        
+         
+        
+        
+        <ImageButton
+            android:id="@+id/BtnTrick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/BtnBoard"
+            android:background="@null"
+            android:src="@drawable/seltrick" />
+
+        <ImageButton
+            android:id="@+id/BtnPowerUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/BtnTrick"
+            android:background="@null"
+            android:src="@drawable/selpower" />
+
+       <ImageButton
+            android:id="@+id/BtnSet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/BtnPowerUp"
+            android:background="@null"
+            android:src="@drawable/selset" />
+            
+            
+            
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/shoppingAD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"></RelativeLayout>
+
+</RelativeLayout><!-- From: file:/C:/Users/Giovanni/Downloads/Surfing/app/src/main/res/layout/shooping_layout.xml -->

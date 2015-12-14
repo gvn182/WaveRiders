@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Itens>
+    <itemdata>
+	    <id>1</id>
+		<name>VARIAL</name>
+       	<value>FREE</value>
+		<icon>trick_icon1</icon>
+		<direction>0</direction>
+	</itemdata>
+	<itemdata>
+	    <id>2</id>
+		<name>OLLIE</name>
+       	<value>FREE</value>
+		<icon>trick_icon2</icon>
+		<direction>1</direction>
+	</itemdata>
+		<itemdata>
+	    <id>7</id>
+		<name>FRONT FLIP</name>
+       	<value>FREE</value>
+		<icon>trick_icon7</icon>
+		<direction>2</direction>
+	</itemdata>
+	<itemdata>
+	    <id>8</id>
+		<name>BACK FLIP</name>
+       	<value>FREE</value>
+		<icon>trick_icon8</icon>
+		<direction>3</direction>
+	</itemdata>
+	<itemdata>
+	    <id>6</id>
+		<name>BOARD SPLIT</name>
+       	<value>7000</value>
+		<icon>trick_icon6</icon>
+		<direction>1</direction>
+	</itemdata>
+	
+		<itemdata>
+	    <id>3</id>
+		<name>SUPERMAN</name>
+       	<value>8000</value>
+		<icon>trick_icon3</icon>
+		<direction>2</direction>
+	</itemdata>
+
+	
+	<itemdata>
+	    <id>9</id>
+		<name>360 RADIAL</name>
+       	<value>9000</value>
+		<icon>trick_icon9</icon>
+		<direction>0</direction>
+	</itemdata>
+	
+	<itemdata>
+	    <id>10</id>
+		<name>360 HOLLIE</name>
+       	<value>9000</value>
+		<icon>trick_icon10</icon>
+		<direction>1</direction>
+	</itemdata>
+	<itemdata>
+	    <id>11</id>
+		<name>JUMP</name>
+       	<value>10000</value>
+		<icon>trick_icon11</icon>
+		<direction>3</direction>
+	</itemdata>
+	
+	<itemdata>
+	    <id>12</id>
+		<name>HAND STAND</name>
+       	<value>12000</value>
+		<icon>trick_icon12</icon>
+		<direction>2</direction>
+	</itemdata>
+	
+	<itemdata>
+	    <id>4</id>
+		<name>SHARKJUMP</name>
+       	<value>14000</value>
+		<icon>trick_icon4</icon>
+		<direction>3</direction>
+	</itemdata>
+	
+	<itemdata>
+	    <id>5</id>
+		<name>TATSUMAKI</name>
+       	<value>15000</value>
+		<icon>trick_icon5</icon>
+		<direction>0</direction>
+	</itemdata>
+</Itens>

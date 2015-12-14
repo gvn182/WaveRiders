@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Itens>
+	<itemdata>
+	    <id>coin20</id>
+		<name>SMALL COIN PACK(20,000)</name>
+       	<value>$0,99</value>
+		<icon>icon_coin_01</icon>
+	</itemdata>
+		<itemdata>
+	    <id>coin50</id>
+		<name>MEGA COIN PACK(50,000)</name>
+       	<value>$1,99</value>
+		<icon>icon_coin_02</icon>
+	</itemdata>
+	<itemdata>
+	    <id>coin150</id>
+		<name>ULTRA COIN PACK(150,000)</name>
+       	<value>$2,99</value>
+		<icon>icon_coin_03</icon>
+	</itemdata>
+	<itemdata>
+	    <id>coin500</id>
+		<name>DREAM COIN PACK (500,000)</name>
+       	<value>$4,99</value>
+		<icon>icon_coin_04</icon>
+	</itemdata>
+	
+	
+</Itens>

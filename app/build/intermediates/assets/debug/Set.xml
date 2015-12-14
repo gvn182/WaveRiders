@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Itens>
+    <itemdata>
+	    <id>100</id>
+		<name>CHICKEN</name>
+       	<value>25000</value>
+		<icon>icon1000</icon>
+		<direction>0</direction>
+	</itemdata>
+	 <itemdata>
+	    <id>101</id>
+		<name>PENGUIN</name>
+       	<value>25000</value>
+		<icon>icon1010</icon>
+		<direction>0</direction>
+	</itemdata>
+		 <itemdata>
+	    <id>102</id>
+		<name>SHARK</name>
+       	<value>25000</value>
+		<icon>icon1020</icon>
+		<direction>0</direction>
+	</itemdata>
+		<itemdata>
+	    <id>103</id>
+		<name>SCUBA</name>
+       	<value>25000</value>
+		<icon>icon1030</icon>
+		<direction>0</direction>
+	</itemdata>
+		<itemdata>
+	    <id>104</id>
+		<name>KNIGHT</name>
+       	<value>25000</value>
+		<icon>icon1040</icon>
+		<direction>0</direction>
+	</itemdata>
+		
+</Itens>

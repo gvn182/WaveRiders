@@ -1,0 +1,224 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\.name
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\scopes\
+* .idea\scopes\scope_settings.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* SkyShip.iml
+* Surfing.iml
+* out\
+* out\production\
+* out\production\SkyShip\
+* out\production\SkyShip\SkyShip.afp.apk
+* out\production\SkyShip\SkyShip.apk
+* out\production\SkyShip\SkyShip.apk.res
+* out\production\SkyShip\SkyShip.unaligned.apk
+* out\production\SkyShip\Util\
+* out\production\SkyShip\Util\BitMapHelper.class
+* out\production\SkyShip\Util\HeapLog.class
+* out\production\SkyShip\Util\MoveHelper.class
+* out\production\SkyShip\Util\PatternsHelper.class
+* out\production\SkyShip\classes.dex
+* out\production\SkyShip\net\
+* out\production\SkyShip\net\game\
+* out\production\SkyShip\net\game\Aura.class
+* out\production\SkyShip\net\game\Bird.class
+* out\production\SkyShip\net\game\Birds.class
+* out\production\SkyShip\net\game\Coin.class
+* out\production\SkyShip\net\game\Coins.class
+* out\production\SkyShip\net\game\EnergyBall.class
+* out\production\SkyShip\net\game\GameConfig.class
+* out\production\SkyShip\net\game\GodBar.class
+* out\production\SkyShip\net\game\Level.class
+* out\production\SkyShip\net\game\MainActivity.class
+* out\production\SkyShip\net\game\MainGamePanel.class
+* out\production\SkyShip\net\game\MainThread.class
+* out\production\SkyShip\net\game\Onda.class
+* out\production\SkyShip\net\game\Player.class
+* out\production\SkyShip\net\game\Sky.class
+* out\production\SkyShip\net\game\Surfer.class
+* out\production\SkyShip\net\game\Tail.class
+* out\production\SkyShip\net\game\Water.class
+* out\production\SkyShip\net\skyship\
+* out\production\SkyShip\net\skyship\BuildConfig.class
+* out\production\SkyShip\net\skyship\R$attr.class
+* out\production\SkyShip\net\skyship\R$drawable.class
+* out\production\SkyShip\net\skyship\R$id.class
+* out\production\SkyShip\net\skyship\R$layout.class
+* out\production\SkyShip\net\skyship\R$menu.class
+* out\production\SkyShip\net\skyship\R$raw.class
+* out\production\SkyShip\net\skyship\R$string.class
+* out\production\SkyShip\net\skyship\R$style.class
+* out\production\SkyShip\net\skyship\R.class
+* out\production\SkyShip\net\ui\
+* out\production\SkyShip\net\ui\AndroidTabLayoutActivity.class
+* out\production\SkyShip\net\ui\BinderData$ViewHolder.class
+* out\production\SkyShip\net\ui\BinderData.class
+* out\production\SkyShip\net\ui\BoardsActivity.class
+* out\production\SkyShip\net\ui\BodyActivity.class
+* out\production\SkyShip\net\ui\HeadActivity$1.class
+* out\production\SkyShip\net\ui\HeadActivity.class
+* out\production\SkyShip\net\ui\PowerUPActivity.class
+* out\production\SkyShip\net\ui\TricksActivity.class
+* out\production\SkyShip\net\ui\XParser.class
+* out\production\Surfing\
+* out\production\Surfing\Util\
+* out\production\Surfing\Util\BitMapHelper.class
+* out\production\Surfing\Util\HeapLog.class
+* out\production\Surfing\Util\MoveHelper.class
+* out\production\Surfing\Util\PatternsHelper.class
+* out\production\Surfing\net\
+* out\production\Surfing\net\game\
+* out\production\Surfing\net\game\Aura.class
+* out\production\Surfing\net\game\Bird.class
+* out\production\Surfing\net\game\Birds.class
+* out\production\Surfing\net\game\Coin.class
+* out\production\Surfing\net\game\Coins.class
+* out\production\Surfing\net\game\GameConfig.class
+* out\production\Surfing\net\game\GodBar.class
+* out\production\Surfing\net\game\GodMode.class
+* out\production\Surfing\net\game\Level.class
+* out\production\Surfing\net\game\Loading.class
+* out\production\Surfing\net\game\MainActivity.class
+* out\production\Surfing\net\game\MainGamePanel.class
+* out\production\Surfing\net\game\MainThread.class
+* out\production\Surfing\net\game\Ocean.class
+* out\production\Surfing\net\game\Onda.class
+* out\production\Surfing\net\game\PauseScreen.class
+* out\production\Surfing\net\game\Player.class
+* out\production\Surfing\net\game\Shark.class
+* out\production\Surfing\net\game\Sky.class
+* out\production\Surfing\net\game\Squid.class
+* out\production\Surfing\net\game\Surfer.class
+* out\production\Surfing\net\game\Tail.class
+* out\production\Surfing\net\game\WaterBG.class
+* out\production\Surfing\net\surf\
+* out\production\Surfing\net\surf\BuildConfig.class
+* out\production\Surfing\net\surf\R$attr.class
+* out\production\Surfing\net\surf\R$drawable.class
+* out\production\Surfing\net\surf\R$id.class
+* out\production\Surfing\net\surf\R$layout.class
+* out\production\Surfing\net\surf\R$menu.class
+* out\production\Surfing\net\surf\R$raw.class
+* out\production\Surfing\net\surf\R$string.class
+* out\production\Surfing\net\surf\R$style.class
+* out\production\Surfing\net\surf\R.class
+* out\production\Surfing\net\ui\
+* out\production\Surfing\net\ui\AndroidTabLayoutActivity.class
+* out\production\Surfing\net\ui\BinderData$ViewHolder.class
+* out\production\Surfing\net\ui\BinderData.class
+* out\production\Surfing\net\ui\BoardsActivity.class
+* out\production\Surfing\net\ui\BodyActivity.class
+* out\production\Surfing\net\ui\HeadActivity$1.class
+* out\production\Surfing\net\ui\HeadActivity.class
+* out\production\Surfing\net\ui\PowerUPActivity.class
+* out\production\Surfing\net\ui\TricksActivity.class
+* out\production\Surfing\net\ui\XParser.class
+* out\res-cache\
+* out\res-cache\SkyShip\
+* out\res-cache\SkyShip\drawable-hdpi\
+* out\res-cache\SkyShip\drawable-hdpi\bg_sky.png
+* out\res-cache\SkyShip\drawable-hdpi\board00.png
+* out\res-cache\SkyShip\drawable-hdpi\board01.png
+* out\res-cache\SkyShip\drawable-hdpi\board02.png
+* out\res-cache\SkyShip\drawable-hdpi\board03.png
+* out\res-cache\SkyShip\drawable-hdpi\board04.png
+* out\res-cache\SkyShip\drawable-hdpi\board05.png
+* out\res-cache\SkyShip\drawable-hdpi\board06.png
+* out\res-cache\SkyShip\drawable-hdpi\board07.png
+* out\res-cache\SkyShip\drawable-hdpi\board08.png
+* out\res-cache\SkyShip\drawable-hdpi\body00.png
+* out\res-cache\SkyShip\drawable-hdpi\body01.png
+* out\res-cache\SkyShip\drawable-hdpi\body02.png
+* out\res-cache\SkyShip\drawable-hdpi\body03.png
+* out\res-cache\SkyShip\drawable-hdpi\body04.png
+* out\res-cache\SkyShip\drawable-hdpi\body05.png
+* out\res-cache\SkyShip\drawable-hdpi\body06.png
+* out\res-cache\SkyShip\drawable-hdpi\body07.png
+* out\res-cache\SkyShip\drawable-hdpi\body08.png
+* out\res-cache\SkyShip\drawable-hdpi\celebrate.png
+* out\res-cache\SkyShip\drawable-hdpi\cristaonda.png
+* out\res-cache\SkyShip\drawable-hdpi\energy_ball.png
+* out\res-cache\SkyShip\drawable-hdpi\gem.png
+* out\res-cache\SkyShip\drawable-hdpi\god_bar.png
+* out\res-cache\SkyShip\drawable-hdpi\head00.png
+* out\res-cache\SkyShip\drawable-hdpi\head01.png
+* out\res-cache\SkyShip\drawable-hdpi\head02.png
+* out\res-cache\SkyShip\drawable-hdpi\head03.png
+* out\res-cache\SkyShip\drawable-hdpi\head04.png
+* out\res-cache\SkyShip\drawable-hdpi\head05.png
+* out\res-cache\SkyShip\drawable-hdpi\head06.png
+* out\res-cache\SkyShip\drawable-hdpi\head07.png
+* out\res-cache\SkyShip\drawable-hdpi\head08.png
+* out\res-cache\SkyShip\drawable-hdpi\ic_launcher.png
+* out\res-cache\SkyShip\drawable-hdpi\idle.png
+* out\res-cache\SkyShip\drawable-hdpi\jump.png
+* out\res-cache\SkyShip\drawable-hdpi\ondaativa.png
+* out\res-cache\SkyShip\drawable-hdpi\ondaativa2.png
+* out\res-cache\SkyShip\drawable-hdpi\power_up.png
+* out\res-cache\SkyShip\drawable-hdpi\sky.png
+* out\res-cache\SkyShip\drawable-hdpi\tail0.png
+* out\res-cache\SkyShip\drawable-hdpi\teleport.png
+* out\res-cache\SkyShip\drawable-hdpi\twitterbird.png
+* out\res-cache\SkyShip\drawable-hdpi\water00.png
+* out\res-cache\SkyShip\drawable-mdpi\
+* out\res-cache\SkyShip\drawable-mdpi\ic_launcher.png
+* out\res-cache\SkyShip\drawable-xhdpi\
+* out\res-cache\SkyShip\drawable-xhdpi\ic_launcher.png
+* proguard-project.txt
+* surfman.properties
+* surfman.xml
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:+
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* libs\Flurry_3.2.2.jar => app\libs\Flurry_3.2.2.jar
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+* src\com\android\vending\billing\IInAppBillingService.aidl => app\src\main\aidl\com\android\vending\billing\IInAppBillingService.aidl
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

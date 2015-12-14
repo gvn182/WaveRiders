@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Users\Giovanni\Downloads\Surfing\app\build\intermediates\pre-dexed\debug\Flurry_3.2.2-c5f479aeee71d7e33ae79e9189e21f248dd10683.jar"
+        jar="C:\Users\Giovanni\Downloads\Surfing\app\libs\Flurry_3.2.2.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="9386a6d6d4416561bf4c8f040eb60e558c7cd21b"/>
+    <item
+        dex="C:\Users\Giovanni\Downloads\Surfing\app\build\intermediates\pre-dexed\debug\classes-50806619d3c9a44dd30b8db34aa8bb0329d89fae.jar"
+        jar="C:\Users\Giovanni\Downloads\Surfing\build\intermediates\exploded-aar\com.google.android.gms\play-services\5.0.77\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="b6a82434c1eca686607867cd906bcc80ed987837"/>
+    <item
+        dex="C:\Users\Giovanni\Downloads\Surfing\app\build\intermediates\pre-dexed\debug\classes-1f0b0b5e086e1b1325172aec30be1307e0eda989.jar"
+        jar="C:\Users\Giovanni\Downloads\Surfing\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
+    <item
+        dex="C:\Users\Giovanni\Downloads\Surfing\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-e311e493b238b75da4095bd5ee7b69d76d73dc42.jar"
+        jar="C:\Program Files (x86)\Android\android-studio\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+
+</pre-dex-items>

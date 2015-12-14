@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_menu"
+    tools:context=".Main_Menu"
+    android:gravity="bottom">
+    
+    <RelativeLayout
+        android:id="@+id/mainAD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_alignParentRight="true"></RelativeLayout>
+
+     <ImageButton
+        android:id="@+id/TheShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:background="@drawable/selshare" />
+    
+    
+     <ImageView
+        android:id="@+id/imgDuckLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/duck_logo"
+         />
+    
+    <ImageButton
+        android:id="@+id/btnSurfNowMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnTutorial"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/selsurfnow" />   
+        
+     <ImageButton
+        android:id="@+id/btnTutorial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnSurfShop"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/seltutorial" />  
+    
+    <ImageButton
+        android:id="@+id/btnSurfShop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnCredits"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/selshop" />   
+    
+    
+  <ImageButton
+        android:id="@+id/btnCredits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/selcredits" />
+  
+    <ImageView
+        android:id="@+id/imgDarkBG"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/dark_background"
+        android:gravity="center_horizontal"
+        android:visibility="invisible"
+         />
+    
+        <ImageView
+        android:id="@+id/aboutSplash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="invisible"
+        android:src="@drawable/mainmenu_credits"
+         />
+  
+</RelativeLayout>

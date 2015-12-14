@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu_buycoins_background" >
+
+    <ImageButton
+        android:id="@+id/BtnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/selback" />
+
+    <ImageView
+        android:id="@+id/imgBuy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/menu_buycoins_title" />
+
+    <ImageView
+        android:id="@+id/imgCoins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/shop_coincount" />
+
+    <Util.MyTextView
+        android:id="@+id/txtCoins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imgCoins"
+        android:layout_alignLeft="@+id/imgCoins"
+        android:layout_alignRight="@+id/imgCoins"
+        android:layout_alignTop="@+id/imgCoins"
+        android:layout_margin="1dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="8sp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" >
+
+        <ListView
+            android:id="@+id/list_coins"
+            android:layout_width="570dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/shop_frame"
+            android:layout_alignTop="@+id/shop_frame"
+            android:listSelector="@drawable/list_selector_coin"
+            android:padding="3dp" >
+        </ListView>
+
+        <ImageView
+            android:id="@+id/shop_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/menu_buycoins_border" />
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/C:/Users/Giovanni/Downloads/Surfing/app/src/main/res/layout/buycoins_layout.xml -->

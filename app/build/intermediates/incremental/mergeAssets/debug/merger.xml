@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="C:\Users\Giovanni\Downloads\Surfing\app\src\main\assets" >
+            <file
+                name="Board.xml"
+                path="C:\Users\Giovanni\Downloads\Surfing\app\src\main\assets\Board.xml" />
+            <file
+                name="Body.xml"
+                path="C:\Users\Giovanni\Downloads\Surfing\app\src\main\assets\Body.xml" />
+            <file
+                name="Coin.xml"
+                path="C:\Users\Giovanni\Downloads\Surfing\app\src\main\assets\Coin.xml" />
+            <file
+                name="fonts/comix_loud.ttf"
+                path="C:\Users\Giovanni\Downloads\Surfing\app\src\main\assets\fonts\comix_loud.ttf" />
+            <file
+                name="GodTrick.xml"
+                path="C:\Users\Giovanni\Downloads\Surfing\app\src\main\assets\GodTrick.xml" />
+            <file
+                name="Head.xml"
+                path="C:\Users\Giovanni\Downloads\Surfing\app\src\main\assets\Head.xml" />
+            <file
+                name="PowerUp.xml"
+                path="C:\Users\Giovanni\Downloads\Surfing\app\src\main\assets\PowerUp.xml" />
+            <file
+                name="Set.xml"
+                path="C:\Users\Giovanni\Downloads\Surfing\app\src\main\assets\Set.xml" />
+        </source>
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="C:\Users\Giovanni\Downloads\Surfing\app\src\debug\assets" />
+    </dataSet>
+
+</merger>

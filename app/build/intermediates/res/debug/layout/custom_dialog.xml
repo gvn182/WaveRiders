@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:background="@android:color/transparent"
+    android:cacheColorHint="@android:color/transparent" >
+
+    <ImageView
+        android:id="@+id/bgBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/shop_confirm_bg" />
+
+    <Util.MyTextView
+        android:id="@+id/txtText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="ARE YOU SURE YOU WANT TO BUY"
+        android:textColor="#FFFFFF"
+        android:textSize="9sp" />
+
+    <ImageView
+        android:id="@+id/imgConfirmItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/icon_shop_empty" />
+
+    <Util.MyTextView
+        android:id="@+id/txtItemNameItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/imgConfirmItem"
+        android:paddingBottom="30dp"
+        android:text="ItemName"
+        android:textColor="#FFFFFF"
+        android:textSize="9sp" />
+
+    <Util.MyTextView
+        android:id="@+id/txtItemValueItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/imgConfirmItem"
+        android:paddingTop="20dp"
+        android:text="7000"
+        android:textColor="#FFFFFF"
+        android:textSize="9sp" />
+
+    <ImageButton
+        android:id="@+id/btnItemConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/selconfirm" />
+
+    <ImageButton
+        android:id="@+id/btnItemCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="150dp"
+        android:layout_toRightOf="@+id/btnItemConfirm"
+        android:background="@drawable/selcancel" />
+
+</RelativeLayout><!-- From: file:/C:/Users/Giovanni/Downloads/Surfing/app/src/main/res/layout/custom_dialog.xml -->

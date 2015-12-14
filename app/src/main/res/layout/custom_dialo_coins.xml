@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:background="@android:color/transparent"
+    android:cacheColorHint="@android:color/transparent" >
+
+    <ImageView
+        android:id="@+id/bgBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/shop_confirm_bg" />
+
+    <Util.MyTextView
+        android:id="@+id/txtText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="YOU DON'T HAVE ENOUGH COINS... \n \n \n WOULD YOU LIKE TO BUY SOME?"
+        android:textColor="#FFFFFF"
+        android:textSize="8sp" />
+
+
+    <ImageButton
+        android:id="@+id/btnItemConfirmCoin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/selconfirm" />
+
+    <ImageButton
+        android:id="@+id/btnItemCancelCoin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="120dp"
+        android:layout_toRightOf="@+id/btnItemConfirmCoin"
+        android:background="@drawable/selcancel" />
+
+</RelativeLayout>
